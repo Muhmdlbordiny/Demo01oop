@@ -96,7 +96,7 @@ namespace Demo01oop
             //typeA.Z = 10;// vaild
             #endregion
             #region Enum
-            days days = days.friday;
+            //days days = days.friday;
             #region Ex01
             //Grades X = Grades.A;
             //if (X==Grades.A)
@@ -171,21 +171,21 @@ namespace Demo01oop
 
             #endregion
             #region Struct
-            Point p1;// Declare to varible  from type point  .. Clr allocate    8 bytes Stack Unintialize
+            //Point p1;// Declare to varible  from type point  .. Clr allocate    8 bytes Stack Unintialize
             //Console.WriteLine(p1.X);//Invaild
             //p1.X = 20;
             //p1.Y = 10;
             //Console.WriteLine(p1.X);
             //Console.WriteLine(p1.Y);
-            p1 = new Point(10,20); //new => is just only for constructor selection 
-                                   // that will Initalized attributes of struct
-            Console.WriteLine(p1.X);
-            Console.WriteLine(p1.Y);
-            Console.WriteLine(p1);
-            Console.WriteLine(p1.ToString());
-            Point p02 = new();
-            Console.WriteLine(p02.X);
-            Console.WriteLine(p02.Y);
+            //p1 = new Point(10,20); //new => is just only for constructor selection 
+            //                       // that will Initalized attributes of struct
+            //Console.WriteLine(p1.X);
+            //Console.WriteLine(p1.Y);
+            //Console.WriteLine(p1);
+            //Console.WriteLine(p1.ToString());
+            //Point p02 = new();
+            //Console.WriteLine(p02.X);
+            //Console.WriteLine(p02.Y);
             #endregion
 
         }
